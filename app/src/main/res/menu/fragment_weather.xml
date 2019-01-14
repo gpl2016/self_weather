@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.con/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_share_weather"
+        android:icon="@drawable/ic_menu_share"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/share"/>
+
+</menu>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/location_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/setting_location"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:text="位置"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical|left"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/setting_current_location"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical|left"
+                android:text="长沙" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/unti_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/setting_unti"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:text="温度单位"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical|left"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/setting_current_unti"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="10dp"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical|left"
+                android:text="摄氏度℃" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/setting_notification"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="15dp"
+                    android:text="天气通知"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/setting__current_notification"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="10dp"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical|left"
+                    android:text="已经关闭" />
+
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/setting_checkbox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="50dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+

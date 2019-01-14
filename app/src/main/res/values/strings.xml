@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Self天气</string>
+    <string name="detail">此日详情</string>
+    <string name="setting">设置</string>
+    <string name="location">查看预测位置</string>
+    <string name="share">分享</string>
+    <string name="Search_locate_content">输入城市名或拼音查询</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <!--下面是为了城市选择加入的-->
+    <color name="mainGray">#F2F6F7</color>
+    <color name="main_40">#40ACD6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="main_a8">#A8E0F5</color>
+    <color name="gray_f4">#F4F4F4</color>
+    <color name="gray_5">#555555</color>
+    <color name="gray_6">#666666</color>
+    <color name="gray_8">#888888</color>
+    <color name="gray_65">#656565</color>
+    <color name="gray_9">#999999</color>
+    <color name="gray_ec">#ECECEC</color>
+    <color name="gray_e">#EEEEEE</color>
+    <color name="gray_f8">#F8F8F8</color>
+    <color name="mainColor">#6BC8EC</color>
+    <color name="light_main">#94D9F4</color>
+    <color name="line">#E5E5E5</color>
+</resources>
